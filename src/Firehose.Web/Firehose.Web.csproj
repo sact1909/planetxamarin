@@ -200,13 +200,15 @@
     <Compile Include="Authors\AnbuMani.cs" />
     <Compile Include="Authors\AndreasNesheim.cs" />
     <Compile Include="Authors\AndrewHoefling.cs" />
-		<Compile Include="Authors\BenceLenart.cs" />
+    <Compile Include="Authors\BenceLenart.cs" />
     <Compile Include="Authors\DamienDoumer.cs" />
     <Compile Include="Authors\DanielCauser.cs" />
     <Compile Include="Authors\DanielHindrikes.cs" />
+    <Compile Include="Authors\DavidOrtinau.cs" />
     <Compile Include="Authors\Delpin.cs" />
     <Compile Include="Authors\FelipeBaltazar.cs" />
     <Compile Include="Authors\DenysFiediaiev.cs" />
+    <Compile Include="Authors\JohannWeiher.cs" />
     <Compile Include="Authors\LogeshPalani.cs" />
     <Compile Include="Authors\DylanBerry.cs" />
     <Compile Include="Authors\GiampaoloTucci.cs" />
@@ -348,6 +350,8 @@
     <Compile Include="Authors\RicardoPrestes.cs" />
     <Compile Include="Authors\DamienAicheh.cs" />
     <Compile Include="Authors\LetsCreateSeries.cs" />
+    <Compile Include="Authors\SylvainMoingeon.cs" />
+    <Compile Include="Authors\BradDean.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />

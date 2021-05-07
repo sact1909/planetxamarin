@@ -35,7 +35,7 @@ namespace Firehose.Web.Authors
 		}
 
 		// Bedford, MA Headquarters.
-		public GeoPosition Position => new GeoPosition(42.512778, -71.251500); 
+		public GeoPosition Position => new GeoPosition(42.512778, -71.251500);
 
 		public string FeedLanguageCode => "en";
 
@@ -53,7 +53,7 @@ namespace Firehose.Web.Authors
 				// If the categories contains Xamarin, the topic directly relevant.
 				relevantToXamarin = true;
 			}
-			else if(item.Content.ToString().ToLowerInvariant().Contains("xamarin"))
+			else if (item.Content.ToString().ToLowerInvariant().Contains("xamarin"))
 			{
 				// If the body talks about Xamarin, the topic uses Xamarin in some way (i.e. Use Azure function for Xamarin document processing).
 				relevantToXamarin = true;

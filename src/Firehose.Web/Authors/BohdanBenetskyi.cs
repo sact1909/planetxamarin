@@ -1,4 +1,4 @@
-﻿using Firehose.Web.Infrastructure;
+using Firehose.Web.Infrastructure;
 using System;
 using System.Collections.Generic;
 
@@ -10,13 +10,13 @@ namespace Firehose.Web.Authors
 
 		public string LastName => "Benetskyi";
 
-		public string StateOrRegion => "Rzeszow, Poland";
+		public string StateOrRegion => "Warsaw, Poland";
 
 		public string EmailAddress => "benetskyybogdan@gmail.com";
 
-		public string ShortBioOrTagLine => "Xamarin Software Developer, co-organizer of Xamarin Local Events in Rzeszow, Local CSS at Xamarin Advocate";
+		public string ShortBioOrTagLine => "Xamarin MVP, co-organizer of Xamarin Local Events in Rzeszow";
 
-		public Uri WebSite => new Uri("https://medium.com/@benetskyybogdan/");
+		public Uri WebSite => new Uri("https://benetskyybogdan.medium.com/");
 
 		public string TwitterHandle => "bbenetskyy";
 
@@ -26,7 +26,7 @@ namespace Firehose.Web.Authors
 
 		public IEnumerable<Uri> FeedUris { get { yield return new Uri("https://medium.com/feed/@benetskyybogdan/"); } }
 
-		public GeoPosition Position => new GeoPosition(50.041187, 21.999121);
+		public GeoPosition Position => new GeoPosition(52.237049, 21.017532);
 
 		public string FeedLanguageCode => "en";
 	}
